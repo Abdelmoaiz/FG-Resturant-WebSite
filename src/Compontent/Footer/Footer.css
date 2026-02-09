@@ -1,0 +1,35 @@
+:root{
+    --mainColor: #ab3550;
+}
+.Footer{
+    background-color: var(--mainColor);
+    height: 250px;
+    width: 100%;
+    padding: 30px 0;
+}
+.Footer .content{
+    width: 40%;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px;
+    /* text-align: center; */
+}
+.Footer .head,.Footer .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footer .head h6,.Footer .links a{
+    font-size: 20px;
+    margin: 20px;
+    color: #fff;
+
+}
+.Footer .links a{
+    
+}
+.Footer .rights{
+    text-align: center;
+    color: #fff;
+
+}

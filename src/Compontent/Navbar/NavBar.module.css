@@ -1,0 +1,61 @@
+:root{
+    --mainColor: #ab3550;
+}
+.NavBar{
+    width: 100%;
+    height: 70px;
+    padding-top: 10px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 10;
+    background-color: #fff;
+
+}
+nav{
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav .row{
+    align-items: center;
+
+}
+nav .logo{
+    background-color: var(--mainColor);
+    border-radius: 45%;
+    color: #fff;
+    font-family:'Times New Roman', Times, serif;
+    padding: 5px 0;
+    text-align: center;
+}
+nav ul{
+    align-items: center;
+    padding: 10px 0;
+    text-align: right;
+}
+nav ul a{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--mainColor) !important;
+}
+nav ul a:last-of-type{
+    margin-left: 10px;
+}
+nav ul a:hover{
+    border-bottom: 2px solid var(--mainColor);
+}
+nav ul a.txtnum{
+    background-color: var(--mainColor);
+    border: 1px solid var(--mainColor);
+    color: #fff !important;
+    box-sizing: border-box;
+}
+nav ul a.txtnum:hover{
+    background-color: transparent ;
+    color: var(--mainColor) !important;
+    transition:.3s ease-in-out;
+}

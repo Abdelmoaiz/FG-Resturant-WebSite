@@ -1,0 +1,36 @@
+:root{
+    --mainColor: #ab3550;
+}
+.Subscribe{
+    height: 300px;
+    width: 60%;
+    margin: 50px auto;
+    padding: 50px 0;
+
+}
+.Subscribe h2{
+    color: var(--mainColor);
+    margin: 40px auto;
+
+    
+}
+.Subscribe .inputs{
+    width: 100%;
+    align-items: center;
+    margin: 40px auto;
+}
+.Subscribe input{
+    width: 400px;
+    padding: 10px 10px;
+    margin-right: 10px;
+}
+.Subscribe .btn{
+    color: #fff;
+    background-color: var(--mainColor);
+    padding: 10px;
+    font-weight: bold;
+}
+.Subscribe .btn:hover{
+    border: 1px solid var(--mainColor);
+    color: var(--mainColor);
+}

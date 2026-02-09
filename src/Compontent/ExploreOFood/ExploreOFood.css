@@ -1,0 +1,68 @@
+:root{
+    --txtColor:#ab3550;
+}
+.ExploreOFood{
+    padding: 40px 0;
+    margin: auto;
+}
+.ExploreOFood .container{
+    text-align: center;
+    margin: auto;
+
+}
+.ExploreOFood h2{
+    font-weight: bold;
+    color: var(--txtColor);
+}
+.ExploreOFood .content p{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+.ExploreOFood .box-imags{
+    padding-top: 40px;
+}
+.ExploreOFood .box-imags .box{
+    text-align: left;
+}
+.ExploreOFood img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.ExploreOFood  p{
+    text-align: left;
+}
+.ExploreOFood h4{
+    font-size: 20px;
+    color: var(--txtColor);
+    text-align: left;
+
+}
+.ExploreOFood h2{
+    font-size: 22px;
+    text-align: left;
+    color: var(--txtColor);
+}
+.ExploreOFood h2 span{
+    color: #999;
+    text-decoration: line-through;
+}
+.ExploreOFood .btn{
+    width: 140px;
+    height: 40px;
+    background-color: var(--txtColor);
+    border: 1px solid var(--txtColor);
+    margin-top: 20px;
+    color: #fff ;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.ExploreOFood .btn:hover{
+    border: 2px solid var(--txtColor);
+    color: var(--txtColor);
+}
+
+
+
