@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/FG-Resturant-WebSite/static/css/main.c9147fe2.css",
+    "main.js": "/FG-Resturant-WebSite/static/js/main.4bf32904.js",
+    "static/js/787.aa4454f0.chunk.js": "/FG-Resturant-WebSite/static/js/787.aa4454f0.chunk.js",
+    "static/media/pexels-nerfee-mirandilla-3186654.jpg": "/FG-Resturant-WebSite/static/media/pexels-nerfee-mirandilla-3186654.8e4a4f30430045cb4ca2.jpg",
+    "static/media/pexels-ella-olsson-1640773.jpg": "/FG-Resturant-WebSite/static/media/pexels-ella-olsson-1640773.71533b90a5bb18008fca.jpg",
+    "static/media/pexels-rajesh-tp-1624487.jpg": "/FG-Resturant-WebSite/static/media/pexels-rajesh-tp-1624487.fa414484aeade2edda8d.jpg",
+    "static/media/pexels-chevanon-photography-323682.jpg": "/FG-Resturant-WebSite/static/media/pexels-chevanon-photography-323682.ce0734831afc13fe0a8d.jpg",
+    "static/media/pexels-chan-walrus-958545.jpg": "/FG-Resturant-WebSite/static/media/pexels-chan-walrus-958545.6a545d4d0a80d9813949.jpg",
+    "static/media/fa-solid-900.ttf": "/FG-Resturant-WebSite/static/media/fa-solid-900.e615bbcb258550973c16.ttf",
+    "static/media/istockphoto-1443601790-1024x1024.jpg": "/FG-Resturant-WebSite/static/media/istockphoto-1443601790-1024x1024.d3596125c180e8d29f1c.jpg",
+    "static/media/fa-brands-400.ttf": "/FG-Resturant-WebSite/static/media/fa-brands-400.b823fc0dbb5a5f0c21bb.ttf",
+    "static/media/fa-solid-900.woff2": "/FG-Resturant-WebSite/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/burger2.jpg": "/FG-Resturant-WebSite/static/media/burger2.71e6f5164f733d50cf5d.jpg",
+    "static/media/istockphoto-1149294733-1024x1024.jpg": "/FG-Resturant-WebSite/static/media/istockphoto-1149294733-1024x1024.7dd76e310ef38e59bcb0.jpg",
+    "static/media/vvv.jpg": "/FG-Resturant-WebSite/static/media/vvv.dfaedad9017af165b329.jpg",
+    "static/media/fa-brands-400.woff2": "/FG-Resturant-WebSite/static/media/fa-brands-400.ebb7a127d2d8ee6f1832.woff2",
+    "static/media/istockphoto-1192893516-1024x1024.jpg": "/FG-Resturant-WebSite/static/media/istockphoto-1192893516-1024x1024.207873c885147bcff7ea.jpg",
+    "static/media/team-08.jpg": "/FG-Resturant-WebSite/static/media/team-08.03d6e99ddbe9e9e1b7a2.jpg",
+    "static/media/fa-regular-400.ttf": "/FG-Resturant-WebSite/static/media/fa-regular-400.0d03b1bbd1d62c1e1284.ttf",
+    "static/media/avatar-05.png": "/FG-Resturant-WebSite/static/media/avatar-05.623ad256d00afefa95b1.png",
+    "static/media/avatar-06.png": "/FG-Resturant-WebSite/static/media/avatar-06.6fb74fa5aafaa2d3651b.png",
+    "static/media/avatar-04.png": "/FG-Resturant-WebSite/static/media/avatar-04.5cde1a1b7dffd9b9f83a.png",
+    "static/media/fa-regular-400.woff2": "/FG-Resturant-WebSite/static/media/fa-regular-400.0caf4c6cf244a90efcc5.woff2",
+    "static/media/fa-v4compatibility.ttf": "/FG-Resturant-WebSite/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/FG-Resturant-WebSite/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/FG-Resturant-WebSite/index.html",
+    "main.c9147fe2.css.map": "/FG-Resturant-WebSite/static/css/main.c9147fe2.css.map",
+    "main.4bf32904.js.map": "/FG-Resturant-WebSite/static/js/main.4bf32904.js.map",
+    "787.aa4454f0.chunk.js.map": "/FG-Resturant-WebSite/static/js/787.aa4454f0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9147fe2.css",
+    "static/js/main.4bf32904.js"
+  ]
+}
