@@ -1,36 +1,56 @@
 :root{
     --mainColor: #ab3550;
 }
-.Subscribe{
-    height: 300px;
-    width: 60%;
-    margin: 50px auto;
-    padding: 50px 0;
 
+/* =========================
+   Subscribe Section
+========================= */
+
+.Subscribe{
+    width: 60%;
+    min-height: 300px; /* بدل height */
+    margin: 60px auto;
+    padding: 50px 30px;
+    text-align: center;
 }
+
 .Subscribe h2{
     color: var(--mainColor);
-    margin: 40px auto;
-
-    
+    margin-bottom: 30px;
+    font-size: 26px;
 }
+
+/* Inputs Container */
 .Subscribe .inputs{
     width: 100%;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin: 40px auto;
+    gap: 10px;
+    flex-wrap: wrap; /* مهم للموبايل */
 }
+
+/* Input */
 .Subscribe input{
     width: 400px;
-    padding: 10px 10px;
-    margin-right: 10px;
+    max-width: 100%; /* يمنع الخروج بره الشاشة */
+    padding: 12px;
+    border: 1px solid #ccc;
+    outline: none;
 }
+
+/* Button */
 .Subscribe .btn{
     color: #fff;
     background-color: var(--mainColor);
-    padding: 10px;
+    padding: 12px 20px;
     font-weight: bold;
-}
-.Subscribe .btn:hover{
     border: 1px solid var(--mainColor);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Subscribe .btn:hover{
+    background-color: #fff;
     color: var(--mainColor);
 }

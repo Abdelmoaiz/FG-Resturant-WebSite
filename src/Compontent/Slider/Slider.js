@@ -39,7 +39,7 @@ const Slider = () => {
                                     </div>
                                     <div className='box'>
                                         <p>I'm front end developer (html - css - javascript - react.js - bootstrap - sass) . i learn this courses online by Osama Elzero Courses , I work freelance .</p>
-                                        <h3>Yassin Ramadan - Front End Developer</h3>
+                                        <h3>Abdelmoaiz Shikhon - Front End Developer</h3>
                                     </div>
                                 </div>
                             </SwiperSlide>
@@ -50,7 +50,7 @@ const Slider = () => {
                                     </div>
                                     <div className='box'>
                                         <p>I'm back end developer (html - css - php - mysql) , I learn this online in Udacity courses elit. Tempora cupiditate nulla  distinctio saepe quaerat voluptates.</p>
-                                        <h3>Mahmoud Ramadan - Back End Developer</h3>
+                                        <h3>Yassin Ramadan - Back End Developer</h3>
 
                                     </div>
                                 </div>
@@ -75,7 +75,7 @@ const Slider = () => {
                                     </div>
                                     <div className='box'>
                                         <p>I'm ui/ux designer  amet consectetur adipisicing elit. Tempora cupiditate nulla  distinctio saepe quaerat voluptates.</p>
-                                        <h3>Mohammed Abdelmoaiz - UI/UX Designer</h3>
+                                        <h3>Mahammud Abdelmoaiz - UI/UX Designer</h3>
                                     </div>
                                 </div>
                             </SwiperSlide>

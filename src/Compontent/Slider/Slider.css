@@ -2,40 +2,53 @@
     --mainColor: #ab3550;
 }
 
+/* =========================
+   Slider Section
+========================= */
+
 .Slider{
-    padding: 30px 0 50px 0;
+    padding: 40px 0 60px 0;
     text-align: center;
     background-color: var(--mainColor);
     overflow: hidden;
 }
+
 .Slider h2{
     margin: 30px auto;
     color: #fff;
 }
+
 .Slider .Content-slider{
     position: relative;
     width: 80%;
     margin: auto;
     background-color: #fff;
     border-radius: 20px;
+    padding: 20px;
     overflow: hidden;
-    z-index: 1;
 }
+
 .Swiper{
-    height: 300px;
+    min-height: 300px;
+    height: auto;
 }
+
 .Slider .div-img{
     width: 100px;
     height: 100px;
     background-color: var(--mainColor);
     border-radius: 50%;
     margin: 20px auto;
+    overflow: hidden;
 }
+
 .Slider img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 50%;
-
 }
+
 .Slider .box{
     width: 60%;
     margin: auto;
@@ -48,30 +61,110 @@
     font-weight: bold;
 }
 
+/* =========================
+   Questions Section (FAQ)
+========================= */
+
 .Questions{
     width: 100%;
-    height: 500px;
+    min-height: 500px; /* مهم */
     background-color: #fff;
-    padding: 50px;
+    padding: 50px 20px;
     margin: 20px 0;
     text-align: center;
 }
+
 .Questions h2{
     color: var(--mainColor);
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
+
 .Questions .quest{
-    height: 150px;
-    margin: 10px auto;
+    min-height: auto; /* منع التداخل */
+    margin: 25px auto;
     text-align: left;   
+    max-width: 900px;
 }
+
 .Questions h5{
     font-size: 17px;
     color: var(--mainColor);
-
+    margin-bottom: 10px;
 }
+
 .Questions .quest p{
-    padding-top: 10px;
+    padding-top: 5px;
+    line-height: 1.6;
+    color: #333;
+    word-wrap: break-word;
 }
 
+/* =========================
+   Responsive Design
+========================= */
 
+/* Tablet */
+@media (max-width: 992px){
+
+    .Slider .Content-slider{
+        width: 90%;
+    }
+
+    .Slider .box{
+        width: 80%;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 768px){
+
+    .Slider{
+        padding: 30px 0 40px 0;
+    }
+
+    .Slider .Content-slider{
+        width: 95%;
+    }
+
+    .Slider .box{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .Slider h2{
+        font-size: 22px;
+    }
+
+    .Questions{
+        padding: 30px 15px;
+    }
+
+    .Questions h2{
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
+    .Questions h5{
+        font-size: 15px;
+    }
+
+    .Questions .quest p{
+        font-size: 14px;
+    }
+
+}
+
+/* Small Mobile */
+@media (max-width: 480px){
+
+    .Slider .div-img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .Slider h3{
+        font-size: 16px;
+    }
+
+}

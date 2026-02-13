@@ -15,7 +15,7 @@ header .row{
     margin: 60px 0px;
 }
 header h2{
-    width: 80%;
+    width: 50%;
     color: var(--txtColor);
     font-size: 60px;
     font-weight: 700;
@@ -68,28 +68,82 @@ header .btn:last-of-type:hover{
 .numbers{
     background-color: var(--txtColor);
     color: #fff;
-    padding: 25px 0px;
-    max-width: 100%;
-    height: auto;
+    padding: 50px 15px; /* زيادة البادينج للشاشات الكبيرة */
     text-align: center;
     overflow: hidden;
+}
 
-}
 .numbers .row{
-    margin: 10px 0px;
+    display: flex;
+    flex-wrap: wrap; /* يسمح للعمودين أو أكثر بالانتقال للسطر التالي في الموبايل */
+    justify-content: center; /* يوسّط الأعمدة */
+    margin: 0 -10px; /* تعويض الهامش الداخلي */
 }
-.numbers .row h2{
-    font-size: 50px;
+
+.numbers .row > div{
+    flex: 1 1 25%; /* كل عمود 25% للشاشات الكبيرة */
+    max-width: 25%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px; /* مسافة بين الصفوف في الموبايل */
+}
+
+.numbers h2{
+    font-size: 40px;
     font-weight: bold;
     font-family: "Tajawal", sans-serif;
-    margin: 10px 0px;
-
+    margin: 10px 0;
 }
-.numbers .row h6{
+
+.numbers h6{
     font-family: "Tajawal", sans-serif;
-
-
+    font-size: 14px;
+    letter-spacing: 1px;
 }
+
+/* ============ Responsive ============ */
+
+/* Tablets */
+@media (max-width: 992px){
+    .numbers .row > div{
+        flex: 1 1 45%; /* عمودين في الصف */
+        max-width: 45%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px){
+    .numbers .row > div{
+        flex: 1 1 45%; /* عمودين في الصف */
+        max-width: 45%;
+        margin-bottom: 15px;
+    }
+
+    .numbers h2{
+        font-size: 32px;
+    }
+
+    .numbers h6{
+        font-size: 12px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px){
+    .numbers .row > div{
+        flex: 1 1 90%; /* عمود واحد لكل صف */
+        max-width: 90%;
+    }
+
+    .numbers h2{
+        font-size: 28px;
+    }
+
+    .numbers h6{
+        font-size: 12px;
+    }
+}
+
 .pride{
     width: 100%;
     padding: 25px 0px;
@@ -128,61 +182,104 @@ header .btn:last-of-type:hover{
     border: 1px solid var(--txtColor);
 
 }
+:root{
+    --mainColor: #ab3550;
+}
+
+/* =========================
+   Ingredients Section
+========================= */
+
 .ingredients{
-    padding: 50px 20px;
-    background-color: #fff;
-    overflow: hidden;
-    margin: 20px 0;
+    padding: 80px 0;
 }
-.ingredients h2{
-    font-size: 36px;
+
+.ingredients .content-ingredients h2{
+    color: var(--mainColor);
+    margin-bottom: 20px;
     font-weight: bold;
-    font-family: "Tajawal", sans-serif;
-    line-height: 40px;
-    color: var(--txtColor);
-    margin-top: 10px;
 }
-.ingredients p{
-    color: #333;
-    font-size: 17px;
-    font-family: "Tajawal", sans-serif;
-    margin: 15px 0;
-}
-.ingredients .group-img{
-    align-items: start;
-    text-align: start;
-}
-.ingredients img{
-    background-size:cover ;
-    height: auto;
-    margin: 3px;
-}
-.ingredients img:first-of-type{
-    max-width: 50%;
 
+.ingredients .content-ingredients p{
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 20px;
 }
-.ingredients img:nth-of-type(2){
-    max-width: 45%;
-}
-.ingredients img:nth-of-type(3){
-    max-width: 30%;
 
-}
-.ingredients img:last-of-type{
-    max-width: 65%;
-
-    align-items: start;
-
-}
 .ingredients .btn{
-    width: 150px;
-    height: 45px;
-    background-color: var(--txtColor);
-    border: 1px solid var(--txtColor);
-    margin: 20px 10px 20px 0;
-    color: #fff ;
+    background-color: var(--mainColor);
+    color: #fff;
+    border: 1px solid var(--mainColor);
+    padding: 12px 20px;
     font-weight: bold;
-    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.ingredients .btn:hover{
+    background-color: #fff;
+    color: var(--mainColor);
+}
+
+/* =========================
+   Images Grid
+========================= */
+
+.ingredients .group-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.ingredients .group-img img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.ingredients .group-img img:hover{
+    transform: scale(1.05);
+}
+
+/* Tablet */
+@media (max-width: 992px){
+
+    .ingredients{
+        padding: 60px 0;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 768px){
+
+    .ingredients .content-ingredients{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .ingredients .group-img{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .ingredients .group-img img{
+        height: 140px;
+    }
+
+}
+
+/* Small Mobile */
+@media (max-width: 480px){
+
+    .ingredients .group-img{
+        grid-template-columns: 1fr;
+    }
+
+    .ingredients .group-img img{
+        height: 200px;
+    }
+
 }
 
 .dessert{
@@ -224,4 +321,107 @@ header .btn:last-of-type:hover{
 .dessert .btn:hover{
     border: 2px solid var(--txtColor);
     color: var(--txtColor);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+@media (max-width: 992px) {
+  header h2 {
+    width: 100%;
+    font-size: 40px;
+    line-height: 45px;
+    padding-top: 60px;
+  }
+
+  header p {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  header .row {
+    margin: 40px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    text-align: center;
+  }
+
+  header h2 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  header p {
+    font-size: 14px;
+  }
+
+  header .btn {
+    width: 130px;
+    height: 40px;
+    margin: 10px 5px;
+  }
+}
+
+@media (max-width: 992px) {
+  .pride .content-pride {
+    padding-left: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .pride h2,
+  .pride p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .ingredients h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .ingredients p {
+    font-size: 14px;
+  }
+
+  .ingredients .group-img {
+    text-align: center;
+  }
+
+  .ingredients img {
+    max-width: 90% !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .dessert h1,
+  .dessert p {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .dessert {
+    height: auto;
+    padding: 30px 10px;
+  }
+
+  .dessert h1 {
+    font-size: 22px;
+  }
+
+  .dessert p {
+    font-size: 14px;
+  }
+
+  .dessert .btn {
+    width: 140px;
+  }
 }
