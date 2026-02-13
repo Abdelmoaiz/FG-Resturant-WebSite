@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FG-Resturant-WebSite/static/css/main.c9147fe2.css",
-    "main.js": "/FG-Resturant-WebSite/static/js/main.e17faa93.js",
+    "main.css": "/FG-Resturant-WebSite/static/css/main.a40b5c77.css",
+    "main.js": "/FG-Resturant-WebSite/static/js/main.a9ab23c7.js",
     "static/js/787.aa4454f0.chunk.js": "/FG-Resturant-WebSite/static/js/787.aa4454f0.chunk.js",
     "static/media/pexels-nerfee-mirandilla-3186654.jpg": "/FG-Resturant-WebSite/static/media/pexels-nerfee-mirandilla-3186654.8e4a4f30430045cb4ca2.jpg",
     "static/media/pexels-ella-olsson-1640773.jpg": "/FG-Resturant-WebSite/static/media/pexels-ella-olsson-1640773.71533b90a5bb18008fca.jpg",
@@ -26,12 +26,12 @@
     "static/media/fa-v4compatibility.ttf": "/FG-Resturant-WebSite/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/FG-Resturant-WebSite/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/FG-Resturant-WebSite/index.html",
-    "main.c9147fe2.css.map": "/FG-Resturant-WebSite/static/css/main.c9147fe2.css.map",
-    "main.e17faa93.js.map": "/FG-Resturant-WebSite/static/js/main.e17faa93.js.map",
+    "main.a40b5c77.css.map": "/FG-Resturant-WebSite/static/css/main.a40b5c77.css.map",
+    "main.a9ab23c7.js.map": "/FG-Resturant-WebSite/static/js/main.a9ab23c7.js.map",
     "787.aa4454f0.chunk.js.map": "/FG-Resturant-WebSite/static/js/787.aa4454f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9147fe2.css",
-    "static/js/main.e17faa93.js"
+    "static/css/main.a40b5c77.css",
+    "static/js/main.a9ab23c7.js"
   ]
 }
